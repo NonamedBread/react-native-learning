@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native';
+import HelloWorldScreen from './src/presentation/screens/HelloWorldScreen';
 
 export const App = () => {
   return (
-    <View>
-      <Text>Hello World!dddfff</Text>
-    </View>
+    <SafeAreaView >
+      <HelloWorldScreen />
+    </SafeAreaView>
   );
 };
-
