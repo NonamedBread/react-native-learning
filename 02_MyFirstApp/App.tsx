@@ -4,8 +4,10 @@ import HelloWorldScreen from './src/presentation/screens/HelloWorldScreen';
 
 export const App = () => {
   return (
-    <SafeAreaView >
+    <SafeAreaView style={{ flex: 1 }}>
       <HelloWorldScreen />
     </SafeAreaView>
   );
 };
+
+
